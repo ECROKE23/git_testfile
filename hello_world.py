@@ -10,6 +10,13 @@ for pet in animals:
         break
     print(pet)
 
+print()
+
+for pet in animals:
+    if pet != 'monkey' and pet != 'cat':
+        print(pet)
+        
+
 
 print('----')
 # print list but skip horse
