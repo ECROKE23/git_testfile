@@ -1,7 +1,8 @@
 print("Hello World")
+print()
 
 # tuple of animals
-animals = ( 'bear', 'bunny', 'dog', 'cat', 'velociraptor' )
+animals = ( 'bear', 'lion', 'dog', 'cat', 'tiger' )
 
 # print list until there is a cat
 for pet in animals:
