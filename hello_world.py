@@ -2,18 +2,18 @@ print("Hello World")
 print()
 
 # tuple of animals
-animals = ( 'lion', 'dog', 'cat', 'tiger' )
+animals = ( 'lion', 'dog', 'cat', 'tiger', 'monkey', 'horse', 'snake' )
 
-# print list until there is a cat
+# print list until there is a snake
 for pet in animals:
-    if pet == 'cat':
+    if pet == 'snake':
         break
     print(pet)
 
 
 print('----')
-# print list but skip cat
+# print list but skip horse
 for pet in animals:
-    if pet == 'cat':
+    if pet == 'horse':
         continue
     print(pet)
