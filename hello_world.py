@@ -13,7 +13,7 @@ for pet in animals:
 print()
 
 for pet in animals:
-    if pet 1= 'monkey' and pet != 'cat':
+    if pet != 'monkey' and pet != 'cat':
         print(pet)
         
 
