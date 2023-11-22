@@ -1,8 +1,8 @@
 print("Hello World")
-print()
+print('----')
 
-# tuple of animals
-animals = ( 'lion', 'dog', 'cat', 'tiger', 'monkey', 'horse', 'snake' )
+# list of animals
+animals = [ 'lion', 'dog', 'cat', 'tiger', 'monkey', 'horse', 'snake' ]
 
 # print list until there is a snake
 for pet in animals:
@@ -10,17 +10,33 @@ for pet in animals:
         break
     print(pet)
 
-print()
+print('----')
 
+#print all animals except monkey and cat
 for pet in animals:
     if pet != 'monkey' and pet != 'cat':
         print(pet)
         
-
-
 print('----')
+
 # print list but skip horse
 for pet in animals:
     if pet == 'horse':
         continue
     print(pet)
+
+print('----')
+
+animals.reverse()
+for pet in animals:
+    if len(pet) <= 3:
+        print(pet)
+print('----')
+
+for pet in animals:
+    if len(pet) >= 5:
+        print(pet)
+print('----')
+
+print(animals)
+    
