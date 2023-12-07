@@ -46,7 +46,7 @@ print(animals)
 
 print('----')
 
-pet_owners = ['ashley', 'brian', 'chris', 'richard', 'samantha', 'tina']
+pet_owners = ['ashley', 'brian', 'chris', 'richard', 'samantha', 'tina', 'venus']
 
 for owner in pet_owners:
     print (owner)
