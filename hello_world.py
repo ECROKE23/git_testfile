@@ -6,7 +6,7 @@ print ('test_dbrenn branch code')
 print("added branch test_dbrenn")
 
 # list of animals
-animals = [ 'lion', 'dog', 'cat', 'tiger', 'monkey', 'horse', 'snake' ]
+animals = [ 'lion', 'dog', 'cats', 'tiger', 'monkey', 'horse', 'snake' ]
 
 # print list until there is a snake
 for pet in animals:
